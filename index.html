@@ -9,108 +9,116 @@
 </head>
 <body>
     <div class="container">
-        <div class="form">
-            <div class="header">
-                <h1></h1>
-            </div>
-            <div class="first-questions">
-                <div class="small-heading">
+       
+            <div class="form">
+                <div class="header">
+                    <h1>Get in Touch!</h1>
+                </div>
+                <div class="first-questions">
+                    <div class="small-heading">
+                        <div class="subheading">
+                            <h2></h2>
+                        </div>
+                        <div class="small-text">
+                            <p>-------------------</p>
+                        </div>
+                    </div>
+                    <div class="small-heading">
+                        <div class="subheading">
+                            <h2></h2>
+                        </div>
+                        <div class="small-text">
+                            <p>-------------------</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="second-question">
                     <div class="subheading">
                         <h2></h2>
                     </div>
-                    <div class="small-text">
-                        <p></p>
+                    <div class="medium-text">
+                        <p>----------------------------------------------------------------------------</p>
                     </div>
                 </div>
-                <div class="small-heading">
+                <div class="last-question">
                     <div class="subheading">
                         <h2></h2>
                     </div>
-                    <div class="small-text">
-                        <p></p>
+                    <div class="large-text">
+                        <p>----------------------------------------------------------------------------</p>
                     </div>
+                </div>    
+                <div class="form-bottom">
+                    <div class="tick-box">
+                        <h3></h3>
+                    </div>
+                    <div class="tc-text">
+                        <h4></h4>
+                    </div>
+                    <div class="submit"></div>
                 </div>
-            </div>
-            <div class="second-question">
-                <div class="subheading">
-                    <h2></h2>
-                </div>
-                <div class="medium-text">
-                    <p></p>
-                </div>
-            </div>
-            <div class="last-question">
-                <div class="subheading">
-                    <h2></h2>
-                </div>
-                <div class="large-text">
-                    <p></p>
-                </div>
-            </div>    
-            <div class="form-bottom">
-                <div class="tick-box">
-                    <h3></h3>
-                </div>
-                <div class="tc-text">
-                    <h4></h4>
-                </div>
-                <div class="submit"></div>
+                <div class="cursor"></div>
             </div>
         
-        </div>
         <div class="right"></div>
         <div class="bottom"></div>
         <div class="left"></div>
         <div class="top"></div>
     </div>
-    <!-- <div class="form">
-            <div class="header">
-                <h1></h1>
-            </div>
-            <div class="first-questions">
-                <div class="small-heading">
-                    <div class="subheading">
-                        <h2></h2>
-                    </div>
-                    <div class="small-text">
-                        <p></p>
-                    </div>
-                </div>
-                <div class="small-heading">
-                    <div class="subheading">
-                        <h2></h2>
-                    </div>
-                    <div class="small-text">
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-            <div class="second-question">
-                <div class="subheading">
-                    <h2></h2>
-                </div>
-                <div class="medium-text">
-                    <p></p>
-                </div>
-            </div>
-            <div class="last-question">
-                <div class="subheading">
-                    <h2></h2>
-                </div>
-                <div class="large-text">
-                    <p></p>
-                </div>
-            </div>    
-            <div class="form-bottom">
-                <div class="tick-box">
-                    <h3></h3>
-                </div>
-                <div class="tc-text">
-                    <h4></h4>
-                </div>
-                <div class="submit"></div>
-            </div>
 
-    </div> -->
+
+    <button popovertarget="popover-form">Popover</button>
+    <div popover id="popover-form" class="popover">
+        <button popovertarget="popover-form" popovertargetaction="hide" id="close-btn">X</button>
+        <div class="details">
+            <div id="popover-header">
+                <h1>Contact Form</h1>
+            </div>
+            <div class="paragraph">
+                <h3>Any questions you have or information you want? Please get in touch either with the details below or through the contact form.</h3>
+            </div>
+            <h2>My Contact Details</h2>
+            <div class="table">
+                <h6>Company Name: My Company</h6>
+                <h6>Address: 123 Main Street</h6>
+                <h6>Phone: 00000000</h6>
+                <h6>Email: email@email.com</h6>
+                <h6>Operating Hours: Mon-Fri 9:00 AM - 5:00 PM</h6>
+            </div>
+            
+        </div>
+        <div class="input-fields">
+            <h5>Complete the form below and I will get back to you as soon as I can.</h5>
+            <div class="name">
+                <div class="first-name">
+                    <label for="First Name"><b>First Name</b></label>
+                    <input type="text" placeholder="Enter Name" minlength="3">
+                    <p class="requirements">Minimum of 3 characters</p>
+                </div>
+                <div class="last-name">
+                    <label for="Last Name"><b>Last Name</b></label>
+                    <input type="text" placeholder="Enter Surname" minlength="3">
+                    <p class="requirements">Minimum of 3 characters</p>
+                </div>
+            </div>
+            <div class="email">
+                <label for="Email"><b>Email</b></label>
+                <input type="email" placeholder="Enter Email">
+                <p class="requirements">Maximum of 255 characters</p>
+            </div>
+            <div class="msg">
+                <label for="msg"><b>Message</b></label>
+                <textarea name="user_message" id="msg" minlength="5" maxlength="500"></textarea>
+                <p class="requirements">Btween 5 and 500 characetrs</p>
+            </div>
+            <p class="privacy-policy">Filler Text for the Privacy Policy</p>
+            <div class="checkbox-pripol">
+                <input type="checkbox" class="tac" required>
+                <label for="terms_text" for="tac" >Please Accept the Privacy Policy</label>
+                <p class="requirements">Checkbox Must be Checked</p>
+            </div>
+            <button type="submit" class="btn">SUBMIT</button>
+        </div>
+    </div>
 </body>
 </html>
