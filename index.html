@@ -8,66 +8,64 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    <div class="container">
-       
-            <div class="form">
-                <div class="header">
-                    <h1>Get in Touch!</h1>
-                </div>
-                <div class="first-questions">
-                    <div class="small-heading">
+    <button popovertarget="popover-form" class="pop-form-btn">
+        <div class="container">
+                <div class="form">
+                    <div class="header">
+                        <h1>Get in Touch!</h1>
+                    </div>
+                    <div class="first-questions">
+                        <div class="small-heading">
+                            <div class="subheading">
+                                <h2></h2>
+                            </div>
+                            <div class="small-text">
+                                <p>-------------------</p>
+                            </div>
+                        </div>
+                        <div class="small-heading">
+                            <div class="subheading">
+                                <h2></h2>
+                            </div>
+                            <div class="small-text">
+                                <p>-------------------</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second-question">
                         <div class="subheading">
                             <h2></h2>
                         </div>
-                        <div class="small-text">
-                            <p>-------------------</p>
+                        <div class="medium-text">
+                            <p>----------------------------------------------------------------------------</p>
                         </div>
                     </div>
-                    <div class="small-heading">
+                    <div class="last-question">
                         <div class="subheading">
                             <h2></h2>
                         </div>
-                        <div class="small-text">
-                            <p>-------------------</p>
+                        <div class="large-text">
+                            <p>----------------------------------------------------------------------------</p>
                         </div>
+                    </div>    
+                    <div class="form-bottom">
+                        <div class="tick-box">
+                            <h3></h3>
+                        </div>
+                        <div class="tc-text">
+                            <h4></h4>
+                        </div>
+                        <div class="submit"></div>
                     </div>
+                    <div class="cursor"></div>
                 </div>
-                <div class="second-question">
-                    <div class="subheading">
-                        <h2></h2>
-                    </div>
-                    <div class="medium-text">
-                        <p>----------------------------------------------------------------------------</p>
-                    </div>
-                </div>
-                <div class="last-question">
-                    <div class="subheading">
-                        <h2></h2>
-                    </div>
-                    <div class="large-text">
-                        <p>----------------------------------------------------------------------------</p>
-                    </div>
-                </div>    
-                <div class="form-bottom">
-                    <div class="tick-box">
-                        <h3></h3>
-                    </div>
-                    <div class="tc-text">
-                        <h4></h4>
-                    </div>
-                    <div class="submit"></div>
-                </div>
-                <div class="cursor"></div>
-            </div>
-        
-        <div class="right"></div>
-        <div class="bottom"></div>
-        <div class="left"></div>
-        <div class="top"></div>
-    </div>
+            <div class="right"></div>
+            <div class="bottom"></div>
+            <div class="left"></div>
+            <div class="top"></div>
+        </div>
+    </button>
 
-
-    <button popovertarget="popover-form">Popover</button>
     <div popover id="popover-form" class="popover">
         <button popovertarget="popover-form" popovertargetaction="hide" id="close-btn">X</button>
         <div class="details">
@@ -118,6 +116,16 @@
                 <p class="requirements">Checkbox Must be Checked</p>
             </div>
             <button type="submit" class="btn">SUBMIT</button>
+        </div>
+    </div>
+    <button popovertarget="popover-nav" popovertargetaction="show"  class="pop-btn" id="toggleSideNav">&#9776</button>
+    <div popover id="popover-nav" class="pop-nav">
+        <div class="links">
+            <a href="">HOME</a>
+            <a href="">PROJECTS</a>
+            <a href="">ABOUT</a>
+            <a href="">CONTACT</a>
+            <a href="">NEWS</a>
         </div>
     </div>
 </body>
